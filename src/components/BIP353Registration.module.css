@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 12px;
+  background-color: #f5f5f5;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputGroup {
+  display: flex;
+  margin-bottom: 1rem;
+  gap: 0.5rem;
+}
+
+.input {
+  flex: 1;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.button {
+  padding: 0.75rem 1.5rem;
+  background-color: #1e88e5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #1565c0;
+}
+
+.button:disabled {
+  background-color: #90caf9;
+  cursor: not-allowed;
+}
+
+.status {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.success {
+  background-color: #c8e6c9;
+  color: #2e7d32;
+}
+
+.error {
+  background-color: #ffcdd2;
+  color: #c62828;
+}
+
+.info {
+  background-color: #e1f5fe;
+  color: #0277bd;
+}
+
+.registrationInfo {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.infoRow {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.infoLabel {
+  font-weight: bold;
+  min-width: 120px;
+  margin-right: 0.5rem;
+}
